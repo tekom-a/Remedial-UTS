@@ -1,0 +1,38 @@
+#include <cstdlib>
+#include <iostream>
+
+typedef struct
+{
+  char Nama [100];
+  char Nim [100];
+  char Kelas [100];
+  char Prodi [100];
+ 
+}
+data;
+data b;
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+  cout<<" ====================================== "<<endl<<endl;
+  cout<<" \n MASUKKAN NAMA       : ";cin>>b.Nama;
+  cout<<" \n MASUKKAN NIM        : ";cin>>b.Nim;
+  cout<<" \n MASUKKAN KELAS      : ";cin>>b.Kelas;
+  cout<<" \n MASUKKAN PRODI      : ";cin>>b.Prodi;
+  cout<<" ====================================== "<<endl<<endl;
+  cout<<"          TERIMA KASIH            "<<endl;
+  cout<<" ====================================== "<<endl<<endl;
+  
+  b.Nama;
+  b.Nim;
+  b.Kelas;
+  b.Prodi;
+  
+  cout<<" \n NAMA   ANDA : "<<b.Nama<<endl;
+  cout<<" \n NIM    ANDA : "<<b.Nim<<endl;
+  cout<<" \n KELAS  ANDA : "<<b.Kelas<<endl;
+  cout<<" \n PRODI  ANDA : "<<b.Prodi<<endl;
+  
+  return 0;
+}
