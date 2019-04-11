@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+struct data_mahasiswa
+{
+  string nama;
+  string nim;
+  string ipk;
+}
+a,b;
+
+int main()
+{
+  a.nama="William Stalling";
+  a.nim="20451009";
+  a.ipk="3.95";
+  cout<<"Nama :"<<a.nama << "\n";
+  cout<<"Nim  :"<<a.nim  << "\n";
+  cout<<"Ipk  :"<<a.ipk  << "\n";
+  
+  cout<<"\n";
+  
+  a.nama="Alan Turing";
+  a.nim="90015402";
+  a.ipk="4.0";
+  cout<<"Nama :"<<a.nama << "\n";
+  cout<<"Nim  :"<<a.nim  << "\n";
+  cout<<"Ipk  :"<<a.ipk  << "\n";
+  
+}
